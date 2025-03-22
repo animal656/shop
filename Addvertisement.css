@@ -1,0 +1,84 @@
+.content3{
+    position: absolute;
+    top: 1800px;
+    left: 400px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 500;
+}
+
+.content3 h1{
+    margin-left: 150px;
+}
+.content3 p{
+    margin-top: 10px;
+}
+
+.content3 span{
+    margin-left: 190px;
+}
+
+.about{
+    position: absolute;
+    top: 1950px;
+    left: 120px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 500;
+}
+.about-coffee{
+    width: 270px;
+    min-height: 320px;
+    background-color: rgba(128, 128, 128, 0.014);
+    box-shadow: 0 0 10px gray;
+    padding: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 10px;
+    margin: 20px;
+    line-height: 30px;
+}
+.about-coffee button{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+.about-coffee img{
+    margin-top: 5px;
+}
+
+.about-coffee:hover{
+    box-shadow: 0 0 10px white;
+
+}
+.about-coffee{
+    animation: heartbreak 4s linear infinite;
+  
+}
+
+
+@keyframes heartbreak {
+    100%{
+        right: 10px;
+    }
+    
+}
+
+@media  screen and (max-width:480px) {
+    .content3 h1{
+        position: relative;
+        right: 380px;
+        top: 940px;
+        font-size: 50px;
+        font-weight: 400;
+    }
+    .content3 p{
+        display: none;
+    }
+    .about{
+          flex-direction: column;
+          margin-top: 970px;
+          margin-left: -50px;
+
+    }
+    
+}

@@ -1,0 +1,73 @@
+.orders{
+    position: absolute;
+    top: 1300px;
+    left: 200px;
+}
+
+.favorite{
+    display: flex;
+
+}
+.imformation{
+    position: relative;
+    top: 50px;
+}
+
+.imformation p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 500;
+}
+.imformation button{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+
+}
+
+.image3 img{
+    border-radius: 10px;
+    margin-left: 90px;
+    margin-bottom: 130px;
+    width: 450px;
+    height: 350px;
+}
+
+.orders{
+    animation: bon 3s linear infinite ;
+}
+
+@keyframes bon{
+    100%{
+        transform: scale(1.1);
+    }
+}
+
+
+@media  screen and (max-width:480px) {
+    .favorite{
+        flex-direction: column;
+        position: relative;
+        top: 750px;
+        left: -100px;
+    }
+    .imformation p {
+        font-size: 10px;
+        margin-top: 8px;
+    }
+    .imformation h1{
+        font-size: 25px;
+    }
+    .imformation button{
+        padding: 10px;
+    }
+
+    .image3 img{
+        width: 300px;
+        position: relative;
+        top: 70px;
+        left: -90px;
+        width: 280px;
+    }
+}
